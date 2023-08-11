@@ -1,0 +1,19 @@
+---
+---
+
+<>
+  <div id="typed-strings">
+    <p>I am a <strong>Software Engineer</strong></p>
+    <p>I <em>work</em> with Astro, React, NextJS.</p>
+  </div>
+  <div class="text-center mt-6"><span id="typed"></span></div>
+</>
+
+<script>
+  import Typed from "typed.js";
+  var typed = new Typed("#typed", {
+    stringsElement: "#typed-strings",
+    typeSpeed: 50,
+    loop: true,
+  });
+</script>

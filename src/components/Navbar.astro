@@ -1,0 +1,54 @@
+---
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+
+const menuitems = [
+  { title: "Home", path: "/Portfolio/" },
+  { title: "Projects", path: "/Portfolio/projects" },
+  { title: "About", path: "/Portfolio/about" },
+];
+---
+
+<div>
+  <div class="max-w-[1400px] mx-auto">
+    <header
+      class="flex flex-col lg:flex-row justify-between items-center gap-5 p-5"
+    >
+      <Astronav>
+        <div
+          class="flex w-full lg:w-auto items-center justify-between lg:justify-between"
+        >
+          <a
+            href="/Portfolio/"
+            class="text-2xl flex items-center"
+            aria-label="Index Volcán y café - Agencia Turística"
+          >
+            <span>Leo Portfolio</span>
+          </a>
+
+          <div class="block lg:hidden px-4">
+            <MenuIcon class="w-4 h-4" />
+          </div>
+        </div>
+        <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+          <div class="flex flex-col lg:flex-row">
+            {
+              menuitems.map((item) => (
+                <ul>
+                  <li class="flex lg:px-4  px-4  p-2">
+                    <a
+                      href={item.path}
+                      class=" hover:underline text-lg  hover:scale-110 duration-300 "
+                      aria-label={item.title}
+                    >
+                      {item.title}
+                    </a>
+                  </li>
+                </ul>
+              ))
+            }
+          </div>
+        </MenuItems>
+      </Astronav>
+    </header>
+  </div>
+</div>
