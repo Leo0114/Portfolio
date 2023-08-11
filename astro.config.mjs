@@ -5,7 +5,7 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   site: "https://Leo0114.github.io",
-  base: "/Portafolio",
+  base: "/Portfolio",
   experimental: { assets: true, viewTransitions: true },
   integrations: [tailwind(), preact()],
 });
