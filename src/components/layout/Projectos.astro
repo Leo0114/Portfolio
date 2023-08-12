@@ -4,6 +4,22 @@ import { projects } from "@data/projects";
 ---
 
 <div
-  class="grid md:grid-cols-2 gap-2 drop-shadow-[0px_35px_35px_rgba(39,250,131,0.6)]"
+  class="grid md:grid-cols-3 gap-2 object-contain drop-shadow-[0px_35px_35px_rgba(39,250,131,0.2)]"
 >
+  {
+    projects.map((project) => {
+      const route = "/Portfolio/projects/" + project.id;
+      return (
+        <>
+          <a
+            href={route}
+            class="hover:scale-105 duration-500 transition-all py-4 hover:drop-shadow-[0px_35px_35px_rgba(39,250,131,0.6)] "
+          >
+            {project.title}
+            <Imagen img={project.img} alt={project.alt} />
+          </a>
+        </>
+      );
+    })
+  }
 </div>

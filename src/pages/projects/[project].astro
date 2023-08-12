@@ -1,0 +1,32 @@
+---
+import Imagen from "@components/layout/Imagen.astro";
+import { projects } from "@data/projects";
+import Layout from "@layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return projects.map((project) => ({
+    params: {
+      project: project.id,
+    },
+  }));
+}
+
+const getCurrentProject = (id: string) => {
+  console.log("ID", id);
+  const projecFound = projects.find((project) => project.id === id);
+  return projecFound;
+};
+
+const { project } = Astro.params;
+const currentProject = getCurrentProject(project);
+
+const { texto, title, img, alt, github, href, frame, style } = currentProject;
+---
+
+<Layout>
+  <section class="mx-auto w-3/6">
+    <Imagen  alt={alt} img={img}  />
+    <h1 class=" font-bold mt-4">{title}</h1>
+    <p>{texto}</p>
+  </section>
+</Layout>
