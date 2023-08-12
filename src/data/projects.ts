@@ -4,7 +4,6 @@ import Citas from "@assets/Citas.webp";
 import Crypto from "@assets/Crypto.webp";
 import Gastos from "@assets/Gastos.webp";
 import Tareas from "@assets/Tareas.webp";
-import School from "@assets/School.webp";
 import Cabana from "@assets/cabanabanner.webp";
 export const procesarProjects = (estancias: any) => {};
 
@@ -13,19 +12,19 @@ export const projects = [
     id: "citas",
     title: "Citas",
     texto:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi eius error perferendis quaerat maiores ullam, iste commodi magni corporis suscipit?",
+      "Página Web para agendar citas veterinarias cómodamente. Interfaz intuitiva creada con React y estilizada con Tailwind CSS. Simplifica la programación de citas para mascotas.",
     img: Citas,
     alt: "Agendar Citas Web",
     github: "https://github.com/Leo0114/citas-react",
     href: "https://leo0114.github.io/citas-react/",
     frame: "React",
-    style: "Css",
+    style: "Tailwind",
   },
   {
-    title: "Calculadora Crypto",
+    title: "Cotizador de Criptomonedas",
     id: "crypto",
-
-    texto: "",
+    texto:
+      "Obtén tasas de criptomonedas en tu moneda local. Sitio React con diseño personalizado en CSS. Realiza conversiones cripto instantáneas.",
     img: Crypto,
     alt: "Crypto Calculate Web",
     github: "https://github.com/Leo0114/cripto",
@@ -34,9 +33,10 @@ export const projects = [
     style: "Css",
   },
   {
-    title: "Calculadora de gastos",
+    title: "Seguimiento de Gastos",
     id: "gastos",
-    texto: "",
+    texto:
+      "Controla tus finanzas con esta app. Desarrollada en React y estilizada con CSS. Registra gastos, tipos y calcula saldo restante. Gestiona tus finanzas de manera sencilla.",
     img: Gastos,
     alt: "Gastos Web",
     github: "https://github.com/Leo0114/gastos",
@@ -45,9 +45,10 @@ export const projects = [
     style: "Css",
   },
   {
-    title: "Agregar Tareas",
+    title: "Lista de Tareas",
     id: "tareas",
-    texto: "",
+    texto:
+      "Administra tareas fácilmente. App React con diseño moderno en Tailwind. Agrega y elimina tareas de manera rápida. Simplifica tu organización diaria.",
     img: Tareas,
     alt: "Crear tarea Web",
     github: "https://github.com/Leo0114/react-example",
@@ -56,20 +57,10 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
-    title: "Primer Pagina en Astro",
-    id: "astro-landing",
-    texto: "",
-    img: Astro,
-    alt: "Probando Astro Web",
-    github: "https://github.com/Leo0114/astro-landingpage",
-    href: "https://leo0114.github.io/astro-landingpage/",
-    frame: "Astro",
-    style: "Tailwindcss",
-  },
-  {
-    title: "Cabañas",
+    title: "Agencia Turística",
     id: "cabanas",
-    texto: "",
+    texto:
+      "App turística desarrollada con Astro y Preact, estilizada con Tailwind. Reserva cabañas y tours emocionantes. Tu escapada perfecta, ahora más accesible.",
     img: Cabana,
     alt: "Cabañas Web",
     github: "https://github.com/Leo0114/volcancafe",
@@ -80,7 +71,8 @@ export const projects = [
   {
     title: "ProjectAmigo",
     id: "pa",
-    texto: "",
+    texto:
+      "Mejorando la pagina web de Projectamigo con Astro, Preact y embellecida con Tailwind. Nueva interfaz intuitiva, navegación mejorada y mayor accesibilidad. Elevando la experiencia de usuarios comprometidos con la causa.",
     img: Astro,
     alt: "Demo PA Web",
     github: "https://github.com/Leo0114/DemoPA",
@@ -91,7 +83,8 @@ export const projects = [
   {
     title: "Notes App",
     id: "notes",
-    texto: "",
+    texto:
+      "Página para organizar tus dieas, desarrollada en Astro y Preact, con diseño elegante en Tailwind. Crea, edita y organiza tus notas de manera eficiente. Potenciando tu productividad y creatividad.",
     img: Astro,
     alt: "Notes Web",
     github: "https://github.com/Leo0114/NotesApp",
@@ -102,7 +95,8 @@ export const projects = [
   {
     title: "Netflix Clone",
     id: "netflix",
-    texto: "",
+    texto:
+      "Réplica de Netflix desarrollada en Astro y Preact, con diseño atractivo en Tailwind.",
     img: Astro,
     alt: "Netflix clone Web",
     github: "https://github.com/Leo0114/NetflixApp",
@@ -113,7 +107,8 @@ export const projects = [
   {
     title: "Shopping App",
     id: "shopping",
-    texto: "",
+    texto:
+      "Desarrollada en Astro y Preact, con diseño moderno en Tailwind. Explora productos, añádelos al carrito y finaliza la compra de manera intuitiva. Una experiencia de compra en línea mejorada y atractiva.",
     img: Astro,
     alt: "Shopping Web",
     github: "https://github.com/Leo0114/ShoppingApp",
@@ -124,7 +119,8 @@ export const projects = [
   {
     title: "Chairs App",
     id: "chair",
-    texto: "",
+    texto:
+      "Descubre diseños de sillas únicos. Desarrollada en Astro y Preact, con estilización elegante en Tailwind. Explora y selecciona sillas de manera intuitiva, añádelas al carrito y completa tu compra. Transforma tu espacio con la experiencia de compra de Chairs App.",
     img: Astro,
     alt: "Chair Web",
     github: "https://github.com/Leo0114/ChairApp",
@@ -135,7 +131,8 @@ export const projects = [
   {
     title: "Experiences Web",
     id: "experiences",
-    texto: "",
+    texto:
+      "Descubre tus destinos de ensueño. Desarrollada en Astro y Preact, con diseño cautivador en Tailwind. Explora lugares de vacaciones, obtén información detallada y planifica tu escapada perfecta. Amplifica tu experiencia de viaje con ExploreVacay App.",
     img: Astro,
     alt: "Experiences Web",
     github: "https://github.com/Leo0114/Experiences",
@@ -146,7 +143,8 @@ export const projects = [
   {
     title: "School Website",
     id: "school",
-    texto: "",
+    texto:
+      "Reviviendo la nostalgia. Página web clásica creada en HTML y estilizada con Materialize como parte de un proyecto escolar. Explora el pasado mientras demuestra habilidades de diseño y desarrollo web en un contexto educativo.",
     img: Astro,
     alt: "School Project Web",
     github: "https://github.com/Leo0114/Terceraparcial",
