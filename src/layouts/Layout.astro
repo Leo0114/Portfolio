@@ -9,7 +9,7 @@ const { title, seoDesc, seoTitle } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <MainHead title={title} seoTitle={seoTitle} seoDesc={seoDesc} />
-  <body class="bg-slate-900 text-slate-50 min-h-screen">
+  <body class="bg-slate-900 text-slate-50  overflow-y-scroll">
     <Navbar />
     <slot />
     <Footer />

@@ -5,13 +5,14 @@ import Crypto from "@assets/Crypto.webp";
 import Gastos from "@assets/Gastos.webp";
 import Tareas from "@assets/Tareas.webp";
 import School from "@assets/School.webp";
-import Cabana from "@assets/cabanabanner.webp"
+import Cabana from "@assets/cabanabanner.webp";
 export const procesarProjects = (estancias: any) => {};
 
 export const projects = [
   {
-    title:"",
-    notes:"",
+    ruta: "/Portfolio/projects/rutas",
+    title: "Citas",
+    texto: "",
     img: Citas,
     alt: "Agendar Citas Web",
     github: "https://github.com/Leo0114/citas-react",
@@ -20,6 +21,9 @@ export const projects = [
     style: "Css",
   },
   {
+    ruta: "/Portfolio/projects/crypto",
+    title: "Calculadora Crypto",
+    texto: "",
     img: Crypto,
     alt: "Crypto Calculate Web",
     github: "https://github.com/Leo0114/cripto",
@@ -28,6 +32,9 @@ export const projects = [
     style: "Css",
   },
   {
+    ruta: "/Portfolio/projects/gastos",
+    title: "Calculadora de gastos",
+    texto: "",
     img: Gastos,
     alt: "Gastos Web",
     github: "https://github.com/Leo0114/gastos",
@@ -36,6 +43,9 @@ export const projects = [
     style: "Css",
   },
   {
+    ruta: "/Portfolio/projects/tareas",
+    title: "Agregar Tareas",
+    texto: "",
     img: Tareas,
     alt: "Crear tarea Web",
     github: "https://github.com/Leo0114/react-example",
@@ -44,6 +54,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/astroLanding",
+    title: "Primer Pagina en Astro",
+    texto: "",
     img: Astro,
     alt: "Probando Astro Web",
     github: "https://github.com/Leo0114/astro-landingpage",
@@ -52,6 +65,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/cabanas",
+    title: "Cabañas",
+    texto: "",
     img: Cabana,
     alt: "Cabañas Web",
     github: "https://github.com/Leo0114/volcancafe",
@@ -60,6 +76,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/Pa",
+    title: "ProjectAmigo",
+    texto: "",
     img: NotFound,
     alt: "Demo PA Web",
     github: "https://github.com/Leo0114/DemoPA",
@@ -68,6 +87,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/notes",
+    title: "Notes App",
+    texto: "",
     img: NotFound,
     alt: "Notes Web",
     github: "https://github.com/Leo0114/NotesApp",
@@ -76,6 +98,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/netflix",
+    title: "Netflix Clone",
+    texto: "",
     img: NotFound,
     alt: "Netflix clone Web",
     github: "https://github.com/Leo0114/NetflixApp",
@@ -84,6 +109,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/shopping",
+    title: "Shopping App",
+    texto: "",
     img: NotFound,
     alt: "Shopping Web",
     github: "https://github.com/Leo0114/ShoppingApp",
@@ -92,6 +120,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/chair",
+    title: "Chairs App",
+    texto: "",
     img: NotFound,
     alt: "Chair Web",
     github: "https://github.com/Leo0114/ChairApp",
@@ -100,6 +131,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/experiences",
+    title: "Experiences Web",
+    texto: "",
     img: NotFound,
     alt: "Experiences Web",
     github: "https://github.com/Leo0114/Experiences",
@@ -108,6 +142,9 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    ruta: "/Portfolio/projects/school",
+    title: "School Website",
+    texto: "",
     img: School,
     alt: "School Project Web",
     github: "https://github.com/Leo0114/Terceraparcial",
