@@ -1,5 +1,40 @@
 ---
+import Imagen from "@components/layout/Imagen.astro";
 import Layout from "@layouts/Layout.astro";
+import foto from "@assets/Citas.webp";
 ---
 
-<Layout>About Main Page</Layout>
+<Layout
+  title="Leo's About"
+  seoTitle="About Leonel Arroyo Elizarraraz, Software Engineer"
+  seoDesc="Hi there! My name is Leonel, and i am a software engineer"
+>
+  <div class="w-10/12 lg:w-6/12 mx-auto">
+    <h1 class="text-5xl">About</h1>
+
+    <Imagen
+      img={foto}
+      alt="Image about myself"
+      ImgClass=" rounded-md my-2 shadow-md drop-shadow-[10px_10px_35px_rgba(39,245,131,0.6)] "
+    />
+
+    <div class="py-2">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, soluta
+        quasi? Sed, quos iusto. Nisi temporibus provident sequi fuga repellat?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, soluta
+        quasi? Sed, quos iusto. Nisi temporibus provident sequi fuga repellat?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, soluta
+        quasi? Sed, quos iusto. Nisi temporibus provident sequi fuga repellat?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, soluta
+        quasi? Sed, quos iusto. Nisi temporibus provident sequi fuga repellat?
+      </p>
+    </div>
+  </div>
+</Layout>
