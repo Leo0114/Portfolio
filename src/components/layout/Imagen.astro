@@ -5,16 +5,25 @@ interface Props {
   img: ImageMetadata;
   calidad?: string;
   alt: string;
-  imgClass: string;
+  src: string;
+  ImgClass?: string;
 }
-const { img, calidad = "mid", alt, imgClass } = Astro.props;
+const {
+  img,
+  calidad = "mid",
+  alt,
+  src,
+  ImgClass = "rounded-lg w-[300px] h-[300px]",
+} = Astro.props;
 ---
 
-<Image
-  src={img}
-  quality={calidad}
-  loading="lazy"
-  format="avif"
-  alt={alt}
-  class={imgClass}
-/>
+<a href={src}>
+  <Image
+    src={img}
+    quality={calidad}
+    loading="lazy"
+    format="avif"
+    alt={alt}
+    class={ImgClass}
+  />
+</a>

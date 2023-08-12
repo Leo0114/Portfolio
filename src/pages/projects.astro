@@ -1,5 +1,15 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import Projectos from "@components/layout/Projectos.astro";
 ---
 
-<Layout>Projects</Layout>
+<Layout
+  title="Leo Elizarraraz's Projects"
+  seoTitle="Projects with React, Astro and Tailwind"
+  seoDesc="I work with, Astro, react, tailwind and another Js Frameworks"
+>
+  <div class="w-8/12 lg:w-6/12 mx-auto">
+    <h1 class="text-5xl my-2">Projects</h1>
+    <Projectos />
+  </div>
+</Layout>
