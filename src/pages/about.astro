@@ -2,6 +2,7 @@
 import Imagen from "@components/layout/Imagen.astro";
 import Layout from "@layouts/Layout.astro";
 import foto from "@assets/Citas.webp";
+import Perfil from "@assets/profile.webp";
 ---
 
 <Layout
@@ -10,15 +11,21 @@ import foto from "@assets/Citas.webp";
   seoDesc="Hi there! My name is Leonel, and i am a software engineer"
 >
   <div class="w-10/12 lg:w-8/12 mx-auto pb-8">
-    <h1 class="text-5xl my-2">Sobre mi</h1>
+    <div class="justify-center items-center flex">
+      <Imagen
+        img={Perfil}
+        alt="Image about myself"
+        ImgClass=" rounded-lg my-2 shadow-md drop-shadow-[10px_10px_35px_rgba(39,245,131,0.6)] lg:w-1/2  "
+      />
+    </div>
+    <div class="py-2 text-center">
+      <a href="mailto:leonel0614@gmail.com" target="_blank"
+        ><span class="underline-offset-4 underline">leonel0614@gmail.com</span
+        ></a
+      >
+    </div>
 
-    <Imagen
-      img={foto}
-      alt="Image about myself"
-      ImgClass=" rounded-md my-2 shadow-md drop-shadow-[10px_10px_35px_rgba(39,245,131,0.6)] "
-    />
-
-    <div class="py-2 text-justify">
+    <div class="py-6 text-justify">
       <p class="py-2">
         ¡Hola! Soy un entusiasta Desarrollador Front-End Jr. con una pasión
         ardiente por la programación y la tecnología. Mi viaje comenzó en el

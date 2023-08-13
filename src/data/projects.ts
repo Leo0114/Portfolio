@@ -5,6 +5,7 @@ import Crypto from "@assets/Crypto.webp";
 import Gastos from "@assets/Gastos.webp";
 import Tareas from "@assets/Tareas.webp";
 import Cabana from "@assets/cabanabanner.webp";
+import Beach from "@assets/beach.webp";
 export const procesarProjects = (estancias: any) => {};
 
 export const projects = [
@@ -45,6 +46,18 @@ export const projects = [
     style: "Css",
   },
   {
+    title: "Experiences Web",
+    id: "experiences",
+    texto:
+      "Descubre tus destinos de ensueño. Desarrollada en Astro y Preact, con diseño cautivador en Tailwind. Explora lugares de vacaciones, obtén información detallada y planifica tu escapada perfecta. Amplifica tu experiencia de viaje con ExploreVacay App.",
+    img: Beach,
+    alt: "Experiences Web",
+    github: "https://github.com/Leo0114/Experiences",
+    href: "https://leo0114.github.io/Experiences/",
+    frame: "Astro",
+    style: "Tailwindcss",
+  },
+  {
     title: "Lista de Tareas",
     id: "tareas",
     texto:
@@ -69,18 +82,6 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
-    title: "ProjectAmigo",
-    id: "pa",
-    texto:
-      "Mejorando la pagina web de Projectamigo con Astro, Preact y embellecida con Tailwind. Nueva interfaz intuitiva, navegación mejorada y mayor accesibilidad. Elevando la experiencia de usuarios comprometidos con la causa.",
-    img: Astro,
-    alt: "Demo PA Web",
-    github: "https://github.com/Leo0114/DemoPA",
-    href: "https://leo0114.github.io/DemoPA/",
-    frame: "Astro",
-    style: "Tailwindcss",
-  },
-  {
     title: "Notes App",
     id: "notes",
     texto:
@@ -89,6 +90,18 @@ export const projects = [
     alt: "Notes Web",
     github: "https://github.com/Leo0114/NotesApp",
     href: "https://leo0114.github.io/NotesApp/",
+    frame: "Astro",
+    style: "Tailwindcss",
+  },
+  {
+    title: "Chairs App",
+    id: "chair",
+    texto:
+      "Descubre diseños de sillas únicos. Desarrollada en Astro y Preact, con estilización elegante en Tailwind. Explora y selecciona sillas de manera intuitiva, añádelas al carrito y completa tu compra. Transforma tu espacio con la experiencia de compra de Chairs App.",
+    img: Astro,
+    alt: "Chair Web",
+    github: "https://github.com/Leo0114/ChairApp",
+    href: "https://leo0114.github.io/ChairApp/",
     frame: "Astro",
     style: "Tailwindcss",
   },
@@ -117,26 +130,14 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
-    title: "Chairs App",
-    id: "chair",
+    title: "ProjectAmigo",
+    id: "pa",
     texto:
-      "Descubre diseños de sillas únicos. Desarrollada en Astro y Preact, con estilización elegante en Tailwind. Explora y selecciona sillas de manera intuitiva, añádelas al carrito y completa tu compra. Transforma tu espacio con la experiencia de compra de Chairs App.",
+      "Mejorando la pagina web de Projectamigo con Astro, Preact y embellecida con Tailwind. Nueva interfaz intuitiva, navegación mejorada y mayor accesibilidad. Elevando la experiencia de usuarios comprometidos con la causa.",
     img: Astro,
-    alt: "Chair Web",
-    github: "https://github.com/Leo0114/ChairApp",
-    href: "https://leo0114.github.io/ChairApp/",
-    frame: "Astro",
-    style: "Tailwindcss",
-  },
-  {
-    title: "Experiences Web",
-    id: "experiences",
-    texto:
-      "Descubre tus destinos de ensueño. Desarrollada en Astro y Preact, con diseño cautivador en Tailwind. Explora lugares de vacaciones, obtén información detallada y planifica tu escapada perfecta. Amplifica tu experiencia de viaje con ExploreVacay App.",
-    img: Astro,
-    alt: "Experiences Web",
-    github: "https://github.com/Leo0114/Experiences",
-    href: "https://leo0114.github.io/Experiences/",
+    alt: "Demo PA Web",
+    github: "https://github.com/Leo0114/DemoPA",
+    href: "https://leo0114.github.io/DemoPA/",
     frame: "Astro",
     style: "Tailwindcss",
   },
