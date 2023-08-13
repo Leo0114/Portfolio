@@ -1,6 +1,7 @@
 ---
 import { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
+
 interface Props {
   img: ImageMetadata;
   calidad?: string;
@@ -11,10 +12,8 @@ const {
   img,
   calidad = "mid",
   alt,
-  ImgClass = "rounded-lg w-[300px] h-[300px] object-cover hover:border-2 border-green-400 transition-all duration-200 ",
+  ImgClass = "rounded-lg w-[300px] h-[300px] object-cover hover:border-2 border-green-400 transition-all duration-200   shadow-lg dark:shadow-black/20 object-cover object-center",
 } = Astro.props;
 ---
 
 <Image src={img} quality={calidad} format="avif" alt={alt} class={ImgClass} />
-
-<p class=" hover:border-2 border-indigo-400 transition-all duration-300 "></p>
