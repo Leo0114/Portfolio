@@ -82,6 +82,30 @@ export const projects = [
     style: "Tailwindcss",
   },
   {
+    title: "Home Smart",
+    id: "smart",
+    texto:
+      "Explora la revolución del hogar inteligente. Impulsada por Astro y Preact, con estilo definido por Tailwind. Simplifica la compra de dispositivos y accesorios, transforma tu espacio con Smart Home App.",
+    img: Astro,
+    alt: "Home Smart Web",
+    github: "https://github.com/Leo0114/HomeSmart",
+    href: "https://leo0114.github.io/HomeSmart/",
+    frame: "Astro",
+    style: "Tailwindcss",
+  },
+  {
+    title: "Café Viejo",
+    id: "coffe",
+    texto:
+      "Sumérgete en el aroma del café con nuestra app. Desarrollada con pasión y tecnología de punta, nuestra plataforma te conecta con los mejores granos. Explora variedades, añade tus favoritos y saborea la comodidad de comprar café de calidad. Tu experiencia perfecta con café comienza aquí.",
+    img: Astro,
+    alt: "Café Camino Viejo",
+    github: "https://github.com/Leo0114/ChairApp",
+    href: "https://leo0114.github.io/CoffeeS/",
+    frame: "Astro",
+    style: "Tailwindcss",
+  },
+  {
     title: "Notes App",
     id: "notes",
     texto:
@@ -90,18 +114,6 @@ export const projects = [
     alt: "Notes Web",
     github: "https://github.com/Leo0114/NotesApp",
     href: "https://leo0114.github.io/NotesApp/",
-    frame: "Astro",
-    style: "Tailwindcss",
-  },
-  {
-    title: "Chairs App",
-    id: "chair",
-    texto:
-      "Descubre diseños de sillas únicos. Desarrollada en Astro y Preact, con estilización elegante en Tailwind. Explora y selecciona sillas de manera intuitiva, añádelas al carrito y completa tu compra. Transforma tu espacio con la experiencia de compra de Chairs App.",
-    img: Astro,
-    alt: "Chair Web",
-    github: "https://github.com/Leo0114/ChairApp",
-    href: "https://leo0114.github.io/ChairApp/",
     frame: "Astro",
     style: "Tailwindcss",
   },
