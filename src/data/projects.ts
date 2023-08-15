@@ -6,6 +6,7 @@ import Gastos from "@assets/Gastos.webp";
 import Tareas from "@assets/Tareas.webp";
 import Cabana from "@assets/cabanabanner.webp";
 import Beach from "@assets/beach.webp";
+import Smart from "@assets/smart.webp"
 export const procesarProjects = (estancias: any) => {};
 
 export const projects = [
@@ -86,7 +87,7 @@ export const projects = [
     id: "smart",
     texto:
       "Explora la revolución del hogar inteligente. Impulsada por Astro y Preact, con estilo definido por Tailwind. Simplifica la compra de dispositivos y accesorios, transforma tu espacio con Smart Home App.",
-    img: Astro,
+    img: Smart,
     alt: "Home Smart Web",
     github: "https://github.com/Leo0114/HomeSmart",
     href: "https://leo0114.github.io/HomeSmart/",
