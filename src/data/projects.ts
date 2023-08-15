@@ -100,7 +100,7 @@ export const projects = [
       "Sumérgete en el aroma del café con nuestra app. Desarrollada con pasión y tecnología de punta, nuestra plataforma te conecta con los mejores granos. Explora variedades, añade tus favoritos y saborea la comodidad de comprar café de calidad. Tu experiencia perfecta con café comienza aquí.",
     img: Astro,
     alt: "Café Camino Viejo",
-    github: "https://github.com/Leo0114/ChairApp",
+    github: "https://github.com/Leo0114/CoffeeS",
     href: "https://leo0114.github.io/CoffeeS/",
     frame: "Astro",
     style: "Tailwindcss",
