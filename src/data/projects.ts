@@ -6,7 +6,7 @@ import Gastos from "@assets/Gastos.webp";
 import Tareas from "@assets/Tareas.webp";
 import Cabana from "@assets/cabanabanner.webp";
 import Beach from "@assets/beach.webp";
-import Smart from "@assets/smart.webp"
+import Smart from "@assets/smart.webp";
 export const procesarProjects = (estancias: any) => {};
 
 export const projects = [
@@ -74,7 +74,7 @@ export const projects = [
     title: "Agencia Turística",
     id: "cabanas",
     texto:
-      "App turística desarrollada con Astro y Preact, estilizada con Tailwind. Reserva cabañas y tours emocionantes. Tu escapada perfecta, ahora más accesible.",
+      "Mi versión de la pagina web de Agencia Turistica Volcán Café, desarrollada con Astro y Preact, estilizada con Tailwind. Reserva cabañas y tours emocionantes. Tu escapada perfecta, ahora más accesible.",
     img: Cabana,
     alt: "Cabañas Web",
     github: "https://github.com/Leo0114/volcancafe",
@@ -146,7 +146,7 @@ export const projects = [
     title: "ProjectAmigo",
     id: "pa",
     texto:
-      "Mejorando la pagina web de Projectamigo con Astro, Preact y embellecida con Tailwind. Nueva interfaz intuitiva, navegación mejorada y mayor accesibilidad. Elevando la experiencia de usuarios comprometidos con la causa.",
+      "Mi version de  la pagina web de Projectamigo con Astro, Preact y embellecida con Tailwind. Nueva interfaz intuitiva, navegación mejorada y mayor accesibilidad. Elevando la experiencia de usuarios comprometidos con la causa.",
     img: Astro,
     alt: "Demo PA Web",
     github: "https://github.com/Leo0114/DemoPA",

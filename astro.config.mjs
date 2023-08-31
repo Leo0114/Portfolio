@@ -5,6 +5,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://Leo0114.github.io",
   base: "/Portfolio",
-  experimental: { assets: true, viewTransitions: true },
   integrations: [tailwind()],
 });
