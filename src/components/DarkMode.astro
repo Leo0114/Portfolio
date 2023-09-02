@@ -1,0 +1,30 @@
+---
+
+---
+
+<button
+  class="w-8 h-8 grid place-items-center rounded hover:bg-theme-200"
+  data-theme-toggle
+  aria-label="toggle theme"
+>
+  <p>Color</p>
+</button>
+<script>
+  const themeToggles = document.querySelectorAll("[data-theme-toggle]");
+
+  const getTheme = () => localStorage.getItem("theme") || "light";
+
+  const setTheme = (theme) =>
+    document.documentElement.setAttribute("data-theme", theme);
+
+  window.addEventListener("DOMContentLoaded", () => setTheme(getTheme()));
+  document.addEventListener("astro:after-swap", () => setTheme(getTheme()));
+
+  themeToggles.forEach((toggle) => {
+    toggle.addEventListener("click", () => {
+      const nextTheme = getTheme() === "light" ? "dark" : "light";
+      localStorage.setItem("theme", nextTheme);
+      setTheme(nextTheme);
+    });
+  });
+</script>

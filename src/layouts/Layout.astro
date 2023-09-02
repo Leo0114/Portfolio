@@ -5,12 +5,17 @@ import Footer from "@components/Footer.astro";
 const { title, seoDesc, seoTitle } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <MainHead title={title} seoTitle={seoTitle} seoDesc={seoDesc} />
-  <body class="bg-slate-900 text-slate-50 overflow-y-scroll">
-    <Navbar />
-    <slot />
+  <body
+    class="bg-slate-900 text-slate-50 overflow-y-scroll"
+    transition:animate="none"
+  >
+  <Navbar />  
+    <div transition:animate="slide" >
+      <slot />
+    </div>
     <Footer />
   </body>
 </html>

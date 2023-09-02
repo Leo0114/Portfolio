@@ -30,6 +30,7 @@ const { texto, title, img, alt, github, href, frame, style } = currentProject;
     <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
         <Imagen
+          transition:name="img"
           alt={alt}
           img={img}
           ImgClass="object-cover object-center rounded-lg shadow-md drop-shadow-[10px_10px_35px_rgba(39,245,131,0.6)] "
@@ -46,7 +47,9 @@ const { texto, title, img, alt, github, href, frame, style } = currentProject;
         </h1>
         <p class="mb-6 text-sm">
           <span class="border-2 p-2 border-green-600 rounded-full">{frame}</span
-          ><span class="border-2 p-2 border-sky-600 rounded-full ml-4">{style}</span>
+          ><span class="border-2 p-2 border-sky-600 rounded-full ml-4"
+            >{style}</span
+          >
         </p>
         <p class="mb-8 leading-relaxed text-lg text-justify">{texto}</p>
         <GitButtons github={github} web={href} />
